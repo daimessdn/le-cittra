@@ -49,6 +49,14 @@ header nav {
   margin: 0 30px;
 }
 
+header .column {
+  align-items: stretch;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .logo {
   float: left;
   padding: 13px 0;
