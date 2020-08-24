@@ -1,5 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-h1 {
-  font-family: "Parisienne", cursive;
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 h6 {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 100px auto 80px auto;
+  padding: 0 10%;
+}
+
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+}
+
+.column img {
+  width: 100%;
+}
+
+header {
+  background-color: #3a3a3a;
+  padding-top: 10px;
+  color: #fff;
+  height: 100vh;
+}
+
+header nav {
+  margin: 0 30px;
+}
+
+.logo {
+  float: left;
+  padding: 13px 0;
+}
+
+.menu {
+  list-style: none;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu li {
+  padding: 13px 20px;
+}
+
+
+header h1, .logo h1 {
+  font-size: 20px;
+  font-family: "Grand Hotel", cursive;
+}
+
+header h2 {
+  font-size: 45px;
 }
