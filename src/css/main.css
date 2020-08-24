@@ -19,7 +19,7 @@ p {
 }
 
 .container {
-  margin: 100px auto 80px auto;
+  margin: 100px auto 0 auto;
   padding: 0 10%;
 }
 
