@@ -74,6 +74,10 @@ header .column {
   padding: 13px 20px;
 }
 
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
 
 header h1, .logo h1 {
   font-size: 25px;
