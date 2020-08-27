@@ -29,17 +29,21 @@ p {
 }
 
 .column {
-  width: 50%;
-  height: 100%;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .column img {
   width: 100%;
 }
 
+/* 
+  header part
+ */
 header {
   background-color: #3a3a3a;
-  padding-top: 10px;
   color: #fff;
   height: 100vh;
 }
@@ -50,11 +54,8 @@ header nav {
 }
 
 header .column {
-  align-items: stretch;
   height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 50%;
 }
 
 .logo {
@@ -86,4 +87,26 @@ header h1, .logo h1 {
 
 header h2 {
   font-size: 45px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #29463b;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-go {
+  transition: all 1s ease;
+}
+
+.btn:hover .btn-go {
+  margin-left: 20px;
+}
+
+/* second header
+   also top-wrapper */
+.top-wrapper {
+  padding: 10px;
 }
