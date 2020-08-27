@@ -7,6 +7,7 @@
 html, body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5 h6 {
@@ -19,7 +20,7 @@ p {
 }
 
 .container {
-  margin: 100px auto 0 auto;
+  margin: 0 auto;
   padding: 0 10%;
 }
 
@@ -47,6 +48,7 @@ header {
 
 header nav {
   margin: 0 30px;
+  height: 70px;
 }
 
 header .column {
