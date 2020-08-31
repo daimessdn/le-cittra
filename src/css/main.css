@@ -101,9 +101,12 @@ header h2 {
 /* .top-wrapper */
 figure img {
   border-radius: 50%;
+  max-width: 50%;
   object-position: center;
   object-fit: cover;
 }
+
+/* buttons */
 
 .btn {
   border-radius: 5px;
@@ -176,18 +179,22 @@ figure img {
 }
 
 .fa {
-  margin-right: 5Spx;
+  margin-right: 5px;
 }
 
-footer img {
-  width: 125px;
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+  font-family: "Grand Hotel";
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
 }
