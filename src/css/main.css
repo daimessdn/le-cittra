@@ -58,6 +58,8 @@ header {
 header nav {
   margin: 0 30px;
   height: 70px;
+
+  font-weight: bold;
 }
 
 header .column {
