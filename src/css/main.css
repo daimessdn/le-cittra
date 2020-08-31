@@ -98,6 +98,13 @@ header h2 {
   font-size: 45px;
 }
 
+/* .top-wrapper */
+figure img {
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
 .btn {
   border-radius: 5px;
   padding: 5px;
