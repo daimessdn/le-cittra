@@ -76,8 +76,8 @@ header .column {
 }
 
 .menu li a {
-  color: #fff;
-  text-decoration: none;
+  color: #F0F8FF;
+
 }
 
 header h1, .logo h1 {
@@ -109,4 +109,69 @@ header h2 {
    also top-wrapper */
 .top-wrapper {
   padding: 10px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 5px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+  color: #fff;
+  font-size: 15px;
+  line-height: 19px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.youtube{
+  background-color: #ff0000;
+}
+
+.whatsapp {
+  background-color: #4ac959;
+  margin-right: 5Spx;
+}
+
+.gmail{
+  background-color: #fcfcfc;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5Spx;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
 }
