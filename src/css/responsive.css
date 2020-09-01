@@ -4,7 +4,7 @@
     }
 
     .container {
-        padding: 2rem ;
+        padding: 1rem;
     }
 
     header nav {
@@ -26,10 +26,12 @@
 
     .heading, figcaption {
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .top-wrapper p {
         text-align: justify;
+        margin-bottom: 10px;
     }
     
     .footer .btn {
