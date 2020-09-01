@@ -66,6 +66,10 @@ header .column {
   flex-basis: 50%;
 }
 
+header .btn {
+  padding: 2px;
+}
+
 .logo {
   float: left;
   padding: 13px 0;
@@ -101,11 +105,14 @@ header h2 {
   margin-bottom: 32px;
 }
 
-.top-wrapper figure img {
+figure img {
   border-radius: 50%;
-  max-width: 50%;
   object-position: center;
   object-fit: cover;
+}
+
+figcaption {
+  margin-top: 20px;
 }
 
 .profile {
@@ -182,6 +189,7 @@ header h2 {
 .btn {
   padding: 12px 24px;
   color: white;
+  margin: 5px 2px;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;

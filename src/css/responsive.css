@@ -15,12 +15,24 @@
         flex-wrap: wrap;
     }
 
-    header .column {
+    header .column, .profile, .profile-opinion {
         height: 100%;
         flex-basis: 100%;
     }
 
     header .btn {
         padding: 2px;
+    }
+
+    .heading, figcaption {
+        text-align: center;
+    }
+
+    .top-wrapper p {
+        text-align: justify;
+    }
+    
+    .footer .btn {
+        width: 100%;
     }
 }
