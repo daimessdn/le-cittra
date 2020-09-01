@@ -97,11 +97,23 @@ header h2 {
 }
 
 /* .top-wrapper */
-figure img {
+.top-wrapper h1 {
+  margin-bottom: 32px;
+}
+
+.top-wrapper figure img {
   border-radius: 50%;
   max-width: 50%;
   object-position: center;
   object-fit: cover;
+}
+
+.profile {
+  flex-basis: 30%;
+}
+
+.profile-opinion {
+  flex-basis: 70%;
 }
 
 /* buttons */
