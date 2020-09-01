@@ -147,6 +147,7 @@ figcaption {
   padding: 5px;
   background-color: #29463b;
   color: #fff;
+  border: 1px solid #fff;
   text-decoration: none;
 }
 
