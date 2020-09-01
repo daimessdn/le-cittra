@@ -34,6 +34,17 @@ p {
   width: 100%;
 }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .column {
   align-items: stretch;
   display: flex;
@@ -101,8 +112,14 @@ header h2 {
 }
 
 /* .top-wrapper */
+.top-wrapper {
+  margin-top: 10px;
+  padding: 10px;
+}
+
 .top-wrapper h1 {
-  margin-bottom: 32px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 figure img {
@@ -142,14 +159,6 @@ figcaption {
 
 /* second header
    also top-wrapper */
-.top-wrapper {
-  margin-top: 50px;
-  padding: 10px;
-}
-
-.top-wrapper h1 {
-  text-align: center;
-}
 
 .signup {
   background-color: #239b76;
