@@ -1,7 +1,10 @@
 @media screen and (max-width: 360px) {
     header {
         height: 100%;
-        margin: 50px 0;
+    }
+
+    .container {
+        padding: 2rem ;
     }
 
     header nav {
@@ -15,6 +18,10 @@
     header .column {
         height: 100%;
         flex-basis: 100%;
+    }
+
+    header .btn {
+        padding: 2px;
     }
       
 }
