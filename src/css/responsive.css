@@ -1,0 +1,20 @@
+@media screen and (max-width: 360px) {
+    header {
+        height: 100%;
+        margin: 50px 0;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .rows {
+        flex-wrap: wrap;
+    }
+
+    header .column {
+        height: 100%;
+        flex-basis: 100%;
+    }
+      
+}
